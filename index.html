@@ -80,6 +80,7 @@
             </div>
         </div>
     </div>
+
     <!-- order section -->
     <div id="order-section" class="order my-5">
         <div class="container">
@@ -99,16 +100,40 @@
                             <label for="">Size <span class="text-danger">*</span></label>
                             <select name="size" id="size" class="form-control">
                                 <option value="" selected disabled>--Select pizza sizes--</option>
+                                
                             </select>
+                            
                         </div>
                         <div class="form-group mt-2">
-                            <label for="">Crust <span class="text-danger">*</span></label>
-                            <select name="crust" id="crust" class="form-control">
-                                <option value="" selected disabled>--Select Crust--</option>
-                            </select>
+                            <p>Choose Your crust's size</p>
+            <div class="specify">
+              <select
+                name="pizza"
+                class="size form-select"
+                aria-label="Disabled select example"
+                id="pizza-size"
+              >
+                <!-- <option  value="choose" >choose</option> -->
+                <option value="small">small</option>
+                <option value="medium">medium</option>
+                <option value="large">large</option>
+              </select>
+            </div>
                         </div>
                         <div class="form-group mt-2">
-                            <p>Select Your Toppings at Ksh. 50 each</p>
+                            <p>Select Your Toppings at Ksh. 50 each</p><p>Choose Your Toppings</p>
+                            <div class="specify">
+                              <select
+                                name="pizza form-select"
+                                aria-label="Disabled select example"
+                                id="pizza-toppings"
+                              >
+                                <option value="choose">choose</option>
+                                <option value="pineapples">pineapples</option>
+                                <option value="mushrooms">mushrooms</option>
+                                <option value="olives">olives</option>
+                              </select>
+
                             <div class="row toppings">
                             </div>
                         </div>

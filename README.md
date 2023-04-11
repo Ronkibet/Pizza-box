@@ -19,7 +19,5 @@ In order for you to use the content on this repo ensure you have the following:
 ## Author:[Ronnie Kibuye](https://github.com/Ronkibet)
 ## License: ISC
 ## Feedback: You can reach me on my [Email](ronniekibet85@gmai.com)
-### Author:[Victor Kariuki](https://github.com/Vickyprinz)
-### License: ISC
-### Feedback: You can reach me on my [Email](kariukivictor315@gmail.com)
+
 
